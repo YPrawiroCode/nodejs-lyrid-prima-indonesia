@@ -1,4 +1,4 @@
-const { userModel } = require("../database/config");
+// const { userModel } = require("../database/config");
 const method = {};
 
 method.regisUser = async (reg, res) => {
