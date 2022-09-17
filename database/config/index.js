@@ -1,5 +1,7 @@
 const Sequelize = require("sequelize");
 
+require("dotenv").config();
+
 const userModel = require("../models/userModel");
 const productModel = require("../models/productModel");
 
@@ -7,13 +9,13 @@ const productModel = require("../models/productModel");
 
 //1. open connection sequelize
 const sequelizeInstance = new Sequelize(
-  "test",
-  "prawiro",
-  "admin",
+  process.env.DB_NAME,
+  process.env.DB_USER,
+  process.env.DB_PWD,
   {
-    host:"localhost",
+    host: process.env.HOST,
     dialect: "postgres",
-    port: 5435,
+    port: process.env.PORT_DB
     // ssl: true,
   }
 );
