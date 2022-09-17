@@ -7,7 +7,6 @@ Register User
 <br />
 ![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_reg_user_success.png?raw=true)
 
-<<<<<<< HEAD
 Login User
 <br />
 > GET /api/auth/login/
@@ -54,6 +53,3 @@ Read All Product With Pagination
 ![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_read_all_product_with_pagination_with_auth.png?raw=true)
 
 ![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_read_all_product_pagination_without_auth.png?raw=true)
-=======
-![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_reg_user_success.png?raw=true)
->>>>>>> 025006f4db8514a46b041eb671d1c9db9fc2d4cc
