@@ -19,7 +19,7 @@ Create Product
 
 ![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_creat_product_with_auth.png?raw=true)
 
-![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_create_product_without_auth?raw=true)
+![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_create_product_without_auth.png?raw=true)
 
 Read Product By Id
 
@@ -27,7 +27,7 @@ Read Product By Id
 
 ![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_read_product_by_id_with_auth.png?raw=true)
 
-![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_read_product_by_id_without_auth?raw=true)
+![alt text](https://github.com/yprawirocode/nodejs-lyrid-prima-indonesia/blob/main/pic/Endpoint_read_product_by_id_without_auth.png?raw=true)
 
 Update Product
 
