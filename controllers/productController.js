@@ -36,7 +36,7 @@ method.getAllProduct = async (req, res) => {
     const startIndex = (page - 1) * limit;
     const endIndex = page * limit;
     const productDetails = await productModel.findAll({
-        
+         
     });
     if (endIndex < productDetails.length ){
         result.next = {
