@@ -3,7 +3,7 @@ const passwordHash = require("password-hash");
 const { userModel } = require("../database/config");
 const method = {};
 
-// require("dotenv").config();
+require("dotenv").config();
 
 method.regisUser = async (req, res) => {
   const { email } = req.body;

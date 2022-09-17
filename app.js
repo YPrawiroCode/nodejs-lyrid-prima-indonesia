@@ -19,12 +19,10 @@ app.use(function (req, res, next) {
 
 //import router
 const authRoute = require("./routes/authRoute");
-// const userRoute = require("./routes/userRoute");
 const productRoute = require("./routes/productRoute");
 
 //routing API
 app.use("/api/auth", authRoute);
-// app.use("/api/user", userRoute);
 app.use("/api/product", productRoute);
 
 //Routing Homepage
