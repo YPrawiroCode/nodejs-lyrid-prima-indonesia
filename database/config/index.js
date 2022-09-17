@@ -1,22 +1,20 @@
 const Sequelize = require("sequelize");
 
 const userModel = require("../models/userModel");
+const productModel = require("../models/productModel");
 
-const { DataTypes } = Sequelize;
+// const { DataTypes } = Sequelize;
 
 //1. open connection sequelize
 const sequelizeInstance = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
-  process.env.DB_PWD,
+  "test",
+  "prawiro",
+  "admin",
   {
-    host: process.env.HOST,
-    dialect: process.env.DIALECT,
-    port: process.env.PORT,
-    ssl: {
-      require: true,
-      rejectUnauthorized: false,
-    },
+    host:"localhost",
+    dialect: "postgres",
+    port: 5435,
+    // ssl: true,
   }
 );
 
@@ -30,4 +28,5 @@ sequelizeInstance
 
 module.exports = {
   userModel: userModel(sequelizeInstance, Sequelize.DataTypes),
+  productModel: productModel(sequelizeInstance, Sequelize.DataTypes),
 };

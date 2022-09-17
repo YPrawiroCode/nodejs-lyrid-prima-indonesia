@@ -1,4 +1,4 @@
-const User = (instance, DataType) => {
+const User = (instance, dataType) => {
   return instance.define(
     "user",
     {

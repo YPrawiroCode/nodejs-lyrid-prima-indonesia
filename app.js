@@ -20,12 +20,12 @@ app.use(function (req, res, next) {
 //import router
 const authRoute = require("./routes/authRoute");
 // const userRoute = require("./routes/userRoute");
-// const productRoute = require("./routes/productRoute");
+const productRoute = require("./routes/productRoute");
 
 //routing API
 app.use("/api/auth", authRoute);
 // app.use("/api/user", userRoute);
-// app.use("/api/product", productRoute);
+app.use("/api/product", productRoute);
 
 //Routing Homepage
 app.get("/", (req, res) => {
@@ -37,7 +37,7 @@ app.get("*", (req, res) => {
   res.send("You've tried reaching a route that doesn't exist.");
 });
 
-const PORT = process.env.PORT || 3003;
+const PORT = process.env.PORT || 5432;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
